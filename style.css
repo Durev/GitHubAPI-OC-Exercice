@@ -1,0 +1,37 @@
+html {
+	width: 100%;
+	background-color: #F4F4F4;
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+}
+
+form {
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+	margin: auto;
+	padding: 15px;
+}
+
+#infos {
+	text-align: center;
+	padding: 15px;
+}
+
+img {
+	width: 200px;
+}
+
+a {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d35400;
+}
+

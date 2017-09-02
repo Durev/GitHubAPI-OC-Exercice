@@ -21,7 +21,6 @@ function ajaxGet(url, callback) {
 
 function showProfile (reqResponse) {
 	var responseJson = JSON.parse(reqResponse);
-	console.log(responseJson);
 	//Ajout de l'avatar
 	var avatarElt = document.createElement("img");
 	avatarElt.setAttribute("src", responseJson.avatar_url);
@@ -59,7 +58,6 @@ formElt.addEventListener("submit", function(e) {
 
 	//modifier l'url de la requête avec le nom
 	completeUrl = "https://api.github.com/users/" + profile
-	console.log(completeUrl);
 	//envoyer la requête à l'API
 	ajaxGet(completeUrl, showProfile);
 });
